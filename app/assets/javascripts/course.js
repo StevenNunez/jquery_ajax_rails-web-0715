@@ -7,6 +7,7 @@ Course.prototype.render = function(){
      return "<li>" +
       "<div class='existing_course_name'>" +
         this.name +
+        "<span class='delete' data-id=" + this.id + "> &times;</span>" + 
       "</div>" +
       "<div class='existing_course_description'>" +
         this.description +
